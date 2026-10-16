@@ -27,10 +27,10 @@
 <body>
 <main>
   <h1>「배당주로 먹고 삽니다」 개인정보처리방침</h1>
-  <p class="meta">시행일: 2026년 10월 11일</p>
+  <p class="meta">시행일: 2026년 10월 17일</p>
 
   <p>「배당주로 먹고 삽니다」(이하 "앱")의 개발자(이하 "개발자")는 이용자의 개인정보를 소중히 여기며 「개인정보 보호법」 등 관련 법령을 지킵니다.
-  이 방침은 앱을 쓰는 동안 어떤 정보가 어떻게 처리되는지 설명합니다.</p>
+  이 방침은 앱을 쓰는 동안 어떤 정보가 어떻게 처리되는지 설명하며, Android 앱과 iPhone(iOS) 앱에 함께 적용됩니다.</p>
 
   <h2>1. 앱이 직접 수집하는 정보</h2>
   <p>앱에는 회원가입이나 로그인 기능이 없으며, 개발자는 이름·이메일·전화번호 같은 개인정보를 직접 수집하거나 서버에 저장하지 않습니다.</p>
@@ -47,11 +47,11 @@
     <tbody>
       <tr>
         <td>Google AdMob<br>(광고)</td>
-        <td>광고 ID, 앱 세트 ID, IP 주소(대략적인 위치 추정), 앱 실행·광고 조회·탭 같은 이용 기록, 앱 실행 시간 같은 성능·진단 정보</td>
+        <td>광고 식별자(Android: 광고 ID·앱 세트 ID, iPhone: 광고 식별자(IDFA)·공급업체 식별자(IDFV)), IP 주소(대략적인 위치 추정), 앱 실행·광고 조회·탭 같은 이용 기록, 앱 실행 시간 같은 성능·진단 정보</td>
         <td>광고 제공, 광고 성과 측정, 부정 행위 방지</td>
       </tr>
       <tr>
-        <td>Google Analytics for Firebase<br>(사용 통계)</td>
+        <td>Google Analytics for Firebase<br>(사용 통계, Android 앱만)</td>
         <td>앱 인스턴스 ID, 광고 ID, 마스킹된 IP 주소로 추정한 대략적인 위치, 화면 조회·세션 같은 앱 사용 기록</td>
         <td>앱 사용 현황 분석과 개선</td>
       </tr>
@@ -59,6 +59,8 @@
   </table>
   </div>
   <p>수집된 정보는 전송 중에 암호화(TLS)되어 Google로 전송되며, 처리 방법은 Google의 정책을 따릅니다.</p>
+  <p>iPhone 앱은 처음 실행할 때 추적 허용 여부를 묻습니다. 허용하지 않으면 광고 식별자(IDFA)는 수집되지 않으며, 앱은 그대로 쓸 수 있습니다.
+  법이 광고 동의를 요구하는 지역(유럽경제지역·영국 등)의 이용자에게는 앱 안에서 광고 동의를 묻습니다.</p>
   <ul>
     <li>Google 개인정보처리방침: <a href="https://policies.google.com/privacy?hl=ko">https://policies.google.com/privacy</a></li>
     <li>Google이 파트너의 사이트나 앱에서 정보를 사용하는 방법: <a href="https://policies.google.com/technologies/partner-sites?hl=ko">https://policies.google.com/technologies/partner-sites</a></li>
@@ -72,7 +74,9 @@
 
   <h2>5. 이용자의 권리와 행사 방법</h2>
   <ul>
-    <li><strong>광고 ID 재설정·삭제</strong>: 기기의 설정 앱에서 개인정보 보호(또는 Google) &gt; 광고로 들어가 광고 ID를 재설정하거나 삭제할 수 있습니다. 광고 ID를 삭제하면 맞춤 광고가 제공되지 않습니다.</li>
+    <li><strong>광고 ID 재설정·삭제(Android)</strong>: 기기의 설정 앱에서 개인정보 보호(또는 Google) &gt; 광고로 들어가 광고 ID를 재설정하거나 삭제할 수 있습니다. 광고 ID를 삭제하면 맞춤 광고가 제공되지 않습니다.</li>
+    <li><strong>추적 허용 끄기(iPhone)</strong>: 설정 앱 &gt; 개인정보 보호 및 보안 &gt; 추적에서 이 앱의 추적 허용을 끌 수 있습니다.</li>
+    <li><strong>광고 동의 변경</strong>: 광고 동의를 묻는 지역에서는 iPhone 앱의 더 보기(…) &gt; 개인정보 옵션에서 언제든 바꿀 수 있습니다.</li>
     <li><strong>수집 중단</strong>: 앱을 삭제하면 이후의 정보 수집이 멈춥니다.</li>
     <li><strong>열람·정정·삭제 요청</strong>: 아래 연락처로 문의해 주세요. 개발자가 따로 보관하는 개인정보는 없으며, Google이 처리하는 정보는 Google에 직접 요청할 수도 있습니다.</li>
   </ul>
@@ -91,6 +95,10 @@
 
   <h2>9. 방침의 변경</h2>
   <p>이 방침이 바뀌면 이 페이지에 게시하고 시행일을 함께 고쳐 적습니다.</p>
+  <ul>
+    <li>2026년 10월 11일: 처음 시행</li>
+    <li>2026년 10월 17일: iPhone(iOS) 앱의 광고 식별자, 추적 허용, 광고 동의 내용 추가</li>
+  </ul>
 </main>
 </body>
 </html>
